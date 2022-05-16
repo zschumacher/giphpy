@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/zschumacher/pygiphy/branch/main/graph/badge.svg?token=ADXWQI8YMX)](https://codecov.io/gh/zschumacher/pygiphy)
+
 # pygiphy
 `pygiphy` was written to be a hand-spun alternative to the existing [giphy client](https://github.com/Giphy/giphy-python-client).
 
