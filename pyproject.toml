@@ -8,6 +8,7 @@ authors = ["Zach Schumacher <zachary@simplebet.io>"]
 python = ">=3.7,<=3.10"
 httpx = "^0.22.0"
 pydantic = "^1.9.0"
+typing-extensions = "^4.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.1"

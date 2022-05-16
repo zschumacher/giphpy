@@ -1,9 +1,14 @@
 import os
+import sys
 import typing
-from typing import Final
 from typing import TypeVar
 
 import httpx
+
+if sys.version_info < (3, 8):
+    from typing_extensions import Final
+else:
+    from typing import Final
 
 BASE_URL: Final = "https://api.giphy.com/v1"
 GIPHY_API_KEY_VAR_NAME: Final = "GIPHY_API_KEY"
