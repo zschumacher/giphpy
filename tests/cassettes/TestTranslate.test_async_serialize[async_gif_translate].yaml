@@ -1,0 +1,77 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.giphy.com
+      user-agent:
+      - python-httpx/0.22.0
+    method: GET
+    uri: https://api.giphy.com/v1/gifs/translate?random_id=12345&s=baseball&weirdness=5
+  response:
+    content: '{"data":{"type":"gif","id":"XDGcdXhDrofJe","url":"https://giphy.com/gifs/baseball-pitch-XDGcdXhDrofJe","slug":"baseball-pitch-XDGcdXhDrofJe","bitly_gif_url":"http://gph.is/18IA17f","bitly_url":"http://gph.is/18IA17f","embed_url":"https://giphy.com/embed/XDGcdXhDrofJe","username":"comedycentral","source":"http://comedycentral.tumblr.com/post/55360019547/hey-there-wild-things-major-leagues-on-right","title":"Charlie
+      Sheen Baseball GIF by Comedy Central","rating":"pg","content_url":"","source_tld":"comedycentral.tumblr.com","source_post_url":"http://comedycentral.tumblr.com/post/55360019547/hey-there-wild-things-major-leagues-on-right","is_sticker":0,"import_datetime":"2013-07-27
+      03:58:01","trending_datetime":"1970-01-01 00:00:00","images":{"original":{"height":"252","width":"447","size":"963298","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy.gif&ct=g","mp4_size":"364018","mp4":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy.mp4?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy.mp4&ct=g","webp_size":"559096","webp":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy.webp?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy.webp&ct=g","frames":"15","hash":"4bc4161a4663282cc001d2606591e23e"},"downsized":{"height":"252","width":"447","size":"963298","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy.gif&ct=g"},"downsized_large":{"height":"252","width":"447","size":"963298","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy.gif&ct=g"},"downsized_medium":{"height":"252","width":"447","size":"963298","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy.gif&ct=g"},"downsized_small":{"height":"188","width":"332","mp4_size":"89280","mp4":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy-downsized-small.mp4?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy-downsized-small.mp4&ct=g"},"downsized_still":{"height":"252","width":"447","size":"963298","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy_s.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy_s.gif&ct=g"},"fixed_height":{"height":"200","width":"355","size":"581268","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/200.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=200.gif&ct=g","mp4_size":"194655","mp4":"https://media0.giphy.com/media/XDGcdXhDrofJe/200.mp4?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=200.mp4&ct=g","webp_size":"376192","webp":"https://media0.giphy.com/media/XDGcdXhDrofJe/200.webp?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=200.webp&ct=g"},"fixed_height_downsampled":{"height":"200","width":"355","size":"252465","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/200_d.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=200_d.gif&ct=g","webp_size":"166574","webp":"https://media0.giphy.com/media/XDGcdXhDrofJe/200_d.webp?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=200_d.webp&ct=g"},"fixed_height_small":{"height":"100","width":"178","size":"156413","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/100.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=100.gif&ct=g","mp4_size":"57818","mp4":"https://media0.giphy.com/media/XDGcdXhDrofJe/100.mp4?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=100.mp4&ct=g","webp_size":"104646","webp":"https://media0.giphy.com/media/XDGcdXhDrofJe/100.webp?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=100.webp&ct=g"},"fixed_height_small_still":{"height":"100","width":"178","size":"15716","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/100_s.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=100_s.gif&ct=g"},"fixed_height_still":{"height":"200","width":"355","size":"50094","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/200_s.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=200_s.gif&ct=g"},"fixed_width":{"height":"113","width":"200","size":"203286","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/200w.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=200w.gif&ct=g","mp4_size":"69953","mp4":"https://media0.giphy.com/media/XDGcdXhDrofJe/200w.mp4?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=200w.mp4&ct=g","webp_size":"128486","webp":"https://media0.giphy.com/media/XDGcdXhDrofJe/200w.webp?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=200w.webp&ct=g"},"fixed_width_downsampled":{"height":"113","width":"200","size":"87761","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/200w_d.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=200w_d.gif&ct=g","webp_size":"56460","webp":"https://media0.giphy.com/media/XDGcdXhDrofJe/200w_d.webp?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=200w_d.webp&ct=g"},"fixed_width_small":{"height":"57","width":"100","size":"50712","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/100w.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=100w.gif&ct=g","mp4_size":"19880","mp4":"https://media0.giphy.com/media/XDGcdXhDrofJe/100w.mp4?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=100w.mp4&ct=g","webp_size":"32950","webp":"https://media0.giphy.com/media/XDGcdXhDrofJe/100w.webp?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=100w.webp&ct=g"},"fixed_width_small_still":{"height":"57","width":"100","size":"5003","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/100w_s.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=100w_s.gif&ct=g"},"fixed_width_still":{"height":"113","width":"200","size":"20334","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/200w_s.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=200w_s.gif&ct=g"},"looping":{"mp4_size":"2876822","mp4":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy-loop.mp4?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy-loop.mp4&ct=g"},"original_still":{"height":"252","width":"447","size":"75149","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy_s.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy_s.gif&ct=g"},"original_mp4":{"height":"270","width":"480","mp4_size":"364018","mp4":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy.mp4?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy.mp4&ct=g"},"preview":{"height":"100","width":"176","mp4_size":"32804","mp4":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy-preview.mp4?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy-preview.mp4&ct=g"},"preview_gif":{"height":"50","width":"89","size":"47084","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy-preview.gif?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy-preview.gif&ct=g"},"preview_webp":{"height":"60","width":"106","size":"28444","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/giphy-preview.webp?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=giphy-preview.webp&ct=g"},"480w_still":{"height":"271","width":"480","size":"963298","url":"https://media0.giphy.com/media/XDGcdXhDrofJe/480w_s.jpg?cid=9fbc9b3fgyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs&rid=480w_s.jpg&ct=g"}},"user":{"avatar_url":"https://media3.giphy.com/avatars/comedycentral/OdTch8qXZmzW.jpg","banner_image":"","banner_url":"","profile_url":"https://giphy.com/comedycentral/","username":"comedycentral","display_name":"Comedy
+      Central","description":"The #1 brand in comedy. Go ahead, laugh in our face.","instagram_url":"https://instagram.com/@comedycentral","website_url":"http://cc.com","is_verified":true}},"meta":{"status":200,"msg":"OK","response_id":"gyn56iz3a1ervx6md47mwnajqimf0m94ng6uqtzs"}}'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type, Accept to Content-Type, Accept, x-requested-with,
+        cache-control, X-GIPHY-SDK-NAME, X-GIPHY-SDK-VERSION, X-GIPHY-SDK-PLATFORM,
+        X-CSRFToken
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1349'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 11 May 2022 20:49:30 GMT
+      Strict-Transport-Security:
+      - max-age=15465600
+      Vary:
+      - Accept-Encoding
+      X-Cache-Hits:
+      - 0, 0
+      X-Cachiness-Edge-Actual-TTL:
+      - '0.000'
+      X-Cachiness-Edge-Cache-Control:
+      - max-age=0
+      X-Cachiness-Edge-Rule:
+      - upstream_cache_control
+      X-Cachiness-Shield-Actual-TTL:
+      - '120.000'
+      X-Cachiness-Shield-Cache-Control:
+      - max-age=0
+      X-Cachiness-Shield-Rule:
+      - giphy_misc
+      X-Rule-Debug:
+      - '1'
+      X-Served-By:
+      - cache-iad-kcgs7200162-IAD, cache-iah17227-IAH
+      X-Timer:
+      - S1652302171.714015,VS0,VE84
+      cache-control:
+      - max-age=0
+      x-response-time:
+      - 22ms
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

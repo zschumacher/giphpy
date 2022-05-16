@@ -1,0 +1,77 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.giphy.com
+      user-agent:
+      - python-httpx/0.22.0
+    method: GET
+    uri: https://api.giphy.com/v1/stickers/translate?random_id=12345&s=baseball&weirdness=5
+  response:
+    content: '{"data":{"type":"gif","id":"xUA7b2hY9CTq9jlr4Q","url":"https://giphy.com/gifs/baseball-looney-tunes-bugs-bunny-xUA7b2hY9CTq9jlr4Q","slug":"baseball-looney-tunes-bugs-bunny-xUA7b2hY9CTq9jlr4Q","bitly_gif_url":"http://gph.is/2tG5KVP","bitly_url":"http://gph.is/2tG5KVP","embed_url":"https://giphy.com/embed/xUA7b2hY9CTq9jlr4Q","username":"looneytunes","source":"","title":"Home
+      Run Win GIF by Looney Tunes","rating":"g","content_url":"","source_tld":"","source_post_url":"","is_sticker":0,"import_datetime":"2017-07-11
+      21:14:22","trending_datetime":"0000-00-00 00:00:00","images":{"original":{"height":"540","width":"720","size":"2776320","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy.gif&ct=g","mp4_size":"898158","mp4":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy.mp4?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy.mp4&ct=g","webp_size":"2160370","webp":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy.webp?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy.webp&ct=g","frames":"54","hash":"b7a57698a4f5696658fbb215b094dac8"},"downsized":{"height":"270","width":"360","size":"980468","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy-downsized.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy-downsized.gif&ct=g"},"downsized_large":{"height":"540","width":"720","size":"2776320","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy.gif&ct=g"},"downsized_medium":{"height":"540","width":"720","size":"2776320","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy.gif&ct=g"},"downsized_small":{"height":"216","width":"288","mp4_size":"109721","mp4":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy-downsized-small.mp4?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy-downsized-small.mp4&ct=g"},"downsized_still":{"height":"270","width":"360","size":"19339","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy-downsized_s.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy-downsized_s.gif&ct=g"},"fixed_height":{"height":"200","width":"267","size":"691944","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/200.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=200.gif&ct=g","mp4_size":"193849","mp4":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/200.mp4?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=200.mp4&ct=g","webp_size":"183130","webp":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/200.webp?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=200.webp&ct=g"},"fixed_height_downsampled":{"height":"200","width":"267","size":"108884","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/200_d.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=200_d.gif&ct=g","webp_size":"73664","webp":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/200_d.webp?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=200_d.webp&ct=g"},"fixed_height_small":{"height":"100","width":"134","size":"204537","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/100.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=100.gif&ct=g","mp4_size":"56149","mp4":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/100.mp4?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=100.mp4&ct=g","webp_size":"56664","webp":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/100.webp?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=100.webp&ct=g"},"fixed_height_small_still":{"height":"100","width":"134","size":"4584","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/100_s.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=100_s.gif&ct=g"},"fixed_height_still":{"height":"200","width":"267","size":"13975","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/200_s.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=200_s.gif&ct=g"},"fixed_width":{"height":"150","width":"200","size":"534123","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/200w.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=200w.gif&ct=g","mp4_size":"114863","mp4":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/200w.mp4?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=200w.mp4&ct=g","webp_size":"108978","webp":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/200w.webp?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=200w.webp&ct=g"},"fixed_width_downsampled":{"height":"150","width":"200","size":"78597","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/200w_d.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=200w_d.gif&ct=g","webp_size":"44512","webp":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/200w_d.webp?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=200w_d.webp&ct=g"},"fixed_width_small":{"height":"75","width":"100","size":"128195","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/100w.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=100w.gif&ct=g","mp4_size":"35050","mp4":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/100w.mp4?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=100w.mp4&ct=g","webp_size":"37432","webp":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/100w.webp?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=100w.webp&ct=g"},"fixed_width_small_still":{"height":"75","width":"100","size":"3106","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/100w_s.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=100w_s.gif&ct=g"},"fixed_width_still":{"height":"150","width":"200","size":"10673","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/200w_s.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=200w_s.gif&ct=g"},"looping":{"mp4_size":"5986813","mp4":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy-loop.mp4?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy-loop.mp4&ct=g"},"original_still":{"height":"540","width":"720","size":"52291","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy_s.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy_s.gif&ct=g"},"original_mp4":{"height":"360","width":"480","mp4_size":"898158","mp4":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy.mp4?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy.mp4&ct=g"},"preview":{"height":"156","width":"208","mp4_size":"45146","mp4":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy-preview.mp4?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy-preview.mp4&ct=g"},"preview_gif":{"height":"119","width":"159","size":"49201","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy-preview.gif?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy-preview.gif&ct=g"},"preview_webp":{"height":"76","width":"102","size":"15974","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy-preview.webp?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy-preview.webp&ct=g"},"hd":{"height":"540","width":"720","mp4_size":"3439842","mp4":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/giphy-hd.mp4?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=giphy-hd.mp4&ct=g"},"480w_still":{"height":"360","width":"480","size":"2776320","url":"https://media2.giphy.com/media/xUA7b2hY9CTq9jlr4Q/480w_s.jpg?cid=9fbc9b3f7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs&rid=480w_s.jpg&ct=g"}},"user":{"avatar_url":"https://media2.giphy.com/avatars/LooneyTunes/Dow0vqrcuNN8.jpg","banner_image":"https://media2.giphy.com/headers/looneytunes/hhAxNk0RzY6N.jpg","banner_url":"https://media2.giphy.com/headers/looneytunes/hhAxNk0RzY6N.jpg","profile_url":"https://giphy.com/looneytunes/","username":"looneytunes","display_name":"Looney
+      Tunes","description":"The official Giphy page for Looney Tunes!","instagram_url":"https://instagram.com/@officiallooney","website_url":"","is_verified":true}},"meta":{"status":200,"msg":"OK","response_id":"7gwi9xpvrhoxlzfeudn9mr6ts64hgpcyez31nzvs"}}'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type, Accept to Content-Type, Accept, x-requested-with,
+        cache-control, X-GIPHY-SDK-NAME, X-GIPHY-SDK-VERSION, X-GIPHY-SDK-PLATFORM,
+        X-CSRFToken
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1370'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 11 May 2022 20:49:28 GMT
+      Strict-Transport-Security:
+      - max-age=15465600
+      Vary:
+      - Accept-Encoding
+      X-Cache-Hits:
+      - 0, 0
+      X-Cachiness-Edge-Actual-TTL:
+      - '1200.000'
+      X-Cachiness-Edge-Age:
+      - '0'
+      X-Cachiness-Edge-Desired-TTL:
+      - 1200s
+      X-Cachiness-Edge-Rule:
+      - fastly_default
+      X-Cachiness-Shield-Actual-TTL:
+      - '1200.000'
+      X-Cachiness-Shield-Desired-TTL:
+      - 1200s
+      X-Cachiness-Shield-Rule:
+      - fastly_default
+      X-Rule-Debug:
+      - '1'
+      X-Served-By:
+      - cache-iad-kjyo7100179-IAD, cache-iah17221-IAH
+      X-Timer:
+      - S1652302169.570303,VS0,VE83
+      x-response-time:
+      - 24ms
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

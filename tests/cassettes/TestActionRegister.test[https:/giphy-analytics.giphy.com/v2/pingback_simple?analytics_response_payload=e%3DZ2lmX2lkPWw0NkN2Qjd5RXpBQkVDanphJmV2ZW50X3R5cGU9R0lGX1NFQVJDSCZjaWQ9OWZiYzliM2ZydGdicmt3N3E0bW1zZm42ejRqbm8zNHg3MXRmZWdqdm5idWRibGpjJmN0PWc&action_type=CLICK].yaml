@@ -1,0 +1,59 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - giphy-analytics.giphy.com
+      user-agent:
+      - python-httpx/0.22.0
+    method: GET
+    uri: https://giphy-analytics.giphy.com/v2/pingback_simple?action_type=CLICK&analytics_response_payload=e%3DZ2lmX2lkPWw0NkN2Qjd5RXpBQkVDanphJmV2ZW50X3R5cGU9R0lGX1NFQVJDSCZjaWQ9OWZiYzliM2ZydGdicmt3N3E0bW1zZm42ejRqbm8zNHg3MXRmZWdqdm5idWRibGpjJmN0PWc&random_id=12346&ts=737791
+  response:
+    content: '200'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Content-Type, Accept, x-requested-with, cache-control, X-GIPHY-SDK-NAME, X-GIPHY-SDK-VERSION,
+        X-GIPHY-SDK-PLATFORM, x-giphy-sdk-name, x-giphy-sdk-version, x-giphy-sdk-platform
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Wed, 11 May 2022 21:04:30 GMT
+      Server:
+      - akka-http/10.1.10
+      Via:
+      - kong/0.34-1-enterprise-edition, 1.1 varnish
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Kong-Proxy-Latency:
+      - '0'
+      X-Kong-Upstream-Latency:
+      - '1'
+      X-Served-By:
+      - cache-iah17245-IAH
+      X-Timer:
+      - S1652303070.370532,VS0,VE42
+      transfer-encoding:
+      - chunked
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

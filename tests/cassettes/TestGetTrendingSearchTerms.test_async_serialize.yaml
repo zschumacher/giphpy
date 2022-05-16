@@ -1,0 +1,76 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.giphy.com
+      user-agent:
+      - python-httpx/0.22.0
+    method: GET
+    uri: https://api.giphy.com/v1/trending/searches
+  response:
+    content: '{"data":["oh yes","love is blind","trey lance","twilight zone","booker","john
+      collins","wonderful wednesday","camel day","mid week","hello wednesday","camels","humid","happy
+      humpday","waffles","hamilton","practice","good afternoon","top of the morning","hey
+      yall","huddle"],"meta":{"msg":"OK","status":200,"response_id":"11fbbcd299ca866e2d4e6dac65b404aecd481e35"}}'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type, Accept, x-requested-with, cache-control, X-GIPHY-SDK-NAME,
+        X-GIPHY-SDK-VERSION, X-GIPHY-SDK-PLATFORM, X-CSRFToken
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '1'
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '263'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 11 May 2022 20:49:50 GMT
+      Strict-Transport-Security:
+      - max-age=15465600
+      Vary:
+      - Accept-Encoding
+      X-Cache-Hits:
+      - 0, 1
+      X-Cachiness-Edge-Actual-TTL:
+      - '300.000'
+      X-Cachiness-Edge-Age:
+      - '0'
+      X-Cachiness-Edge-Rule:
+      - upstream_surrogate_control
+      X-Cachiness-Edge-Surrogate-Control:
+      - max-age=300
+      X-Cachiness-Shield-Actual-TTL:
+      - '300.000'
+      X-Cachiness-Shield-Rule:
+      - upstream_surrogate_control
+      X-Cachiness-Shield-Surrogate-Control:
+      - max-age=300
+      X-Robots-Tag:
+      - noindex
+      X-Rule-Debug:
+      - '1'
+      X-Served-By:
+      - cache-iad-kjyo7100172-IAD, cache-iah17273-IAH
+      X-Timer:
+      - S1652302190.103124,VS0,VE1
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1
