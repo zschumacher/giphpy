@@ -64,7 +64,7 @@ exclude = '''
 [tool.coverage.run]
 omit = [
     "pydapper/types.py",
-    "tests/*"
+    "tests/*",
 ]
 
 [build-system]

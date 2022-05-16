@@ -5,7 +5,7 @@ from typing import TypeVar
 
 import httpx
 
-if sys.version_info < (3, 8):
+if sys.version_info < (3, 8):  # pragma: no cover
     from typing_extensions import Final
 else:
     from typing import Final
