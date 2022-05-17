@@ -1,4 +1,9 @@
+[![test](https://github.com/zschumacher/pygiphy/actions/workflows/test.yml/badge.svg)](https://github.com/zschumacher/pygiphy/actions/workflows/test.yml)
+[![Documentation Status](https://readthedocs.org/projects/pygiphy/badge/?version=latest)](https://pygiphy.readthedocs.io/en/latest/?badge=latest)
 [![codecov](https://codecov.io/gh/zschumacher/pygiphy/branch/main/graph/badge.svg?token=ADXWQI8YMX)](https://codecov.io/gh/zschumacher/pygiphy)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 
 # pygiphy
 `pygiphy` was written to be a hand-spun alternative to the existing [giphy client](https://github.com/Giphy/giphy-python-client).

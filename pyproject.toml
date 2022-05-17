@@ -1,8 +1,26 @@
 [tool.poetry]
 name = "pygiphy"
 version = "0.1.0"
-description = ""
-authors = ["Zach Schumacher <zachary@simplebet.io>"]
+description = "a better python GIPHY client"
+authors = ["Zach Schumacher <zschu15@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: Unix',
+    'Operating System :: POSIX :: Linux',
+    'Environment :: Console',
+    'Environment :: MacOS X',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+]
 
 [tool.poetry.dependencies]
 python = ">=3.7,<=3.10"
