@@ -1,4 +1,6 @@
 
+<a href="giphpy/api.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 # <kbd>module</kbd> `api.py`
 
 
@@ -7,21 +9,23 @@
 
 ---
 
+<a href="giphpy/api.py#L41"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `search_gifs`
 
 ```python
 search_gifs(
     q: str,
     lang: str = None,
-    rating: pygiphy.enums.Rating = None,
+    rating: giphpy.enums.Rating = None,
     limit: int = None,
     offset: int = None,
     api_key: str = None,
     random_id: str = None,
-    bundle: pygiphy.enums.Bundle = None,
+    bundle: giphpy.enums.Bundle = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifListResponse]
+) → Union[httpx.Response, giphpy.models.GifListResponse]
 ```
 
 Search for gifs by a query string. 
@@ -51,21 +55,23 @@ https://developers.giphy.com/docs/api/endpoint#search
 
 ---
 
+<a href="giphpy/api.py#L87"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `search_stickers`
 
 ```python
 search_stickers(
     q: str,
     lang: str = None,
-    rating: pygiphy.enums.Rating = None,
+    rating: giphpy.enums.Rating = None,
     limit: int = None,
     offset: int = None,
     api_key: str = None,
     random_id: str = None,
-    bundle: pygiphy.enums.Bundle = None,
+    bundle: giphpy.enums.Bundle = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifListResponse]
+) → Union[httpx.Response, giphpy.models.GifListResponse]
 ```
 
 Search for stickers by using a query string. 
@@ -95,19 +101,21 @@ https://developers.giphy.com/docs/api/endpoint#search
 
 ---
 
+<a href="giphpy/api.py#L133"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `trending_gifs`
 
 ```python
 trending_gifs(
-    rating: pygiphy.enums.Rating = None,
+    rating: giphpy.enums.Rating = None,
     limit: int = None,
     offset: int = None,
     api_key: str = None,
     random_id: str = None,
-    bundle: pygiphy.enums.Bundle = None,
+    bundle: giphpy.enums.Bundle = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifListResponse]
+) → Union[httpx.Response, giphpy.models.GifListResponse]
 ```
 
 Get trending gifs. 
@@ -135,19 +143,21 @@ https://developers.giphy.com/docs/api/endpoint#trending
 
 ---
 
+<a href="giphpy/api.py#L173"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `trending_stickers`
 
 ```python
 trending_stickers(
-    rating: pygiphy.enums.Rating = None,
+    rating: giphpy.enums.Rating = None,
     limit: int = None,
     offset: int = None,
     api_key: str = None,
     random_id: str = None,
-    bundle: pygiphy.enums.Bundle = None,
+    bundle: giphpy.enums.Bundle = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifListResponse]
+) → Union[httpx.Response, giphpy.models.GifListResponse]
 ```
 
 Get trending stickers. 
@@ -175,6 +185,8 @@ https://developers.giphy.com/docs/api/endpoint#trending
 
 ---
 
+<a href="giphpy/api.py#L213"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `gif_translate`
 
 ```python
@@ -185,7 +197,7 @@ gif_translate(
     random_id: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifResponse]
+) → Union[httpx.Response, giphpy.models.GifResponse]
 ```
 
 Translate words or phrases to a single gif. 
@@ -211,6 +223,8 @@ https://developers.giphy.com/docs/api/endpoint#translate
 
 ---
 
+<a href="giphpy/api.py#L236"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `sticker_translate`
 
 ```python
@@ -221,7 +235,7 @@ sticker_translate(
     random_id: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifResponse]
+) → Union[httpx.Response, giphpy.models.GifResponse]
 ```
 
 Translate words or phrases to a single sticker. 
@@ -247,17 +261,19 @@ https://developers.giphy.com/docs/api/endpoint#translate
 
 ---
 
+<a href="giphpy/api.py#L259"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `random_gif`
 
 ```python
 random_gif(
     api_key: str = None,
     tag: str = None,
-    rating: pygiphy.enums.Rating = None,
+    rating: giphpy.enums.Rating = None,
     random_id: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifResponse]
+) → Union[httpx.Response, giphpy.models.GifResponse]
 ```
 
 Get a single random GIF 
@@ -283,17 +299,19 @@ https://developers.giphy.com/docs/api/endpoint#random
 
 ---
 
+<a href="giphpy/api.py#L289"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `random_sticker`
 
 ```python
 random_sticker(
     api_key: str = None,
     tag: str = None,
-    rating: pygiphy.enums.Rating = None,
+    rating: giphpy.enums.Rating = None,
     random_id: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifResponse]
+) → Union[httpx.Response, giphpy.models.GifResponse]
 ```
 
 Get a single random sticker 
@@ -319,6 +337,8 @@ https://developers.giphy.com/docs/api/endpoint#random
 
 ---
 
+<a href="giphpy/api.py#L319"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `random_id`
 
 ```python
@@ -326,7 +346,7 @@ random_id(
     api_key: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.RandomIdResponse]
+) → Union[httpx.Response, giphpy.models.RandomIdResponse]
 ```
 
 Generate a unique ID you can assign to each new user in your app. 
@@ -348,6 +368,8 @@ https://developers.giphy.com/docs/api/endpoint#random-id
 
 
 ---
+
+<a href="giphpy/api.py#L338"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `action_register`
 
@@ -383,6 +405,8 @@ https://developers.giphy.com/docs/api/endpoint#action-register
 
 ---
 
+<a href="giphpy/api.py#L357"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `get_gif_by_id`
 
 ```python
@@ -392,7 +416,7 @@ get_gif_by_id(
     random_id: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifResponse]
+) → Union[httpx.Response, giphpy.models.GifResponse]
 ```
 
 Get a single gif by its unique identifier 
@@ -417,6 +441,8 @@ https://developers.giphy.com/docs/api/endpoint#get-gif-by-id
 
 ---
 
+<a href="giphpy/api.py#L378"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `get_gifs_by_id`
 
 ```python
@@ -426,7 +452,7 @@ get_gifs_by_id(
     random_id: str = None,
     serialize: bool = None,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifListResponse]
+) → Union[httpx.Response, giphpy.models.GifListResponse]
 ```
 
 Get one or more gifs by their unique identifiers 
@@ -451,6 +477,8 @@ https://developers.giphy.com/docs/api/endpoint#get-gifs-by-id
 
 ---
 
+<a href="giphpy/api.py#L404"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `categories`
 
 ```python
@@ -458,7 +486,7 @@ categories(
     api_key: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.CategoryListResponse]
+) → Union[httpx.Response, giphpy.models.CategoryListResponse]
 ```
 
 Get a list of gif categories on the giphy network. 
@@ -481,6 +509,8 @@ https://developers.giphy.com/docs/api/endpoint#categories
 
 ---
 
+<a href="giphpy/api.py#L423"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `autocomplete`
 
 ```python
@@ -491,7 +521,7 @@ autocomplete(
     offset: int = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.SearchTermListResponse]
+) → Union[httpx.Response, giphpy.models.SearchTermListResponse]
 ```
 
 Provides a list of valid terms that completes the given tag on the giphy network 
@@ -517,6 +547,8 @@ https://developers.giphy.com/docs/api/endpoint#autocomplete
 
 ---
 
+<a href="giphpy/api.py#L445"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `channel_search`
 
 ```python
@@ -527,7 +559,7 @@ channel_search(
     offset: int = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.ChannelListResponse]
+) → Union[httpx.Response, giphpy.models.ChannelListResponse]
 ```
 
 Returns all the giphy channels matching the query term. 
@@ -553,6 +585,8 @@ https://developers.giphy.com/docs/api/endpoint#channel-search
 
 ---
 
+<a href="giphpy/api.py#L467"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `search_suggestions`
 
 ```python
@@ -561,7 +595,7 @@ search_suggestions(
     api_key: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.TermListResponse]
+) → Union[httpx.Response, giphpy.models.TermListResponse]
 ```
 
 Provides a list of tag terms related to the given tag on the giphy network. 
@@ -585,6 +619,8 @@ https://developers.giphy.com/docs/api/endpoint#search-suggestions
 
 ---
 
+<a href="giphpy/api.py#L487"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `trending_search_terms`
 
 ```python
@@ -592,7 +628,7 @@ trending_search_terms(
     api_key: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.TrendingSearchTermsListResponse]
+) → Union[httpx.Response, giphpy.models.TrendingSearchTermsListResponse]
 ```
 
 Provides a list of the most popular trending search terms on the giphy network. 

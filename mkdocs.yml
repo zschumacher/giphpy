@@ -1,8 +1,9 @@
-site_name: pygiphy
+site_name: giphpy
 nav:
   - Overview: index.md
   - Api: api.md
   - Async Api: async_api.md
+  - Release Notes: release_notes.md
 
 theme:
   name: 'material'
@@ -22,8 +23,8 @@ theme:
         icon: material/lightbulb
         name: "Switch to light mode"
 
-repo_name: zschumacher/pygiphy
-repo_url: https://github.com/zschumacher/pygiphy
+repo_name: zschumacher/giphpy
+repo_url: https://github.com/zschumacher/giphpy
 
 # disable edit links
 edit_uri: ''

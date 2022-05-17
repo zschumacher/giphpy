@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pygiphy"
+name = "giphpy"
 version = "0.1.0"
 description = "a better python GIPHY client"
 authors = ["Zach Schumacher <zschu15@gmail.com>"]

@@ -5,8 +5,8 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 
-# pygiphy
-`pygiphy` was written to be a hand-spun alternative to the existing [GIPHY client](https://github.com/Giphy/giphy-python-client).
+# giphpy
+`giphpy` was written to be a hand-spun alternative to the existing [GIPHY client](https://github.com/Giphy/giphy-python-client).
 
 You should use it because:
 
@@ -16,49 +16,49 @@ You should use it because:
 ## Installation
 === "pip"
     ```console
-    pip install pygiphy
+    pip install giphpy
     ```
 
 === "poetry"
     ```console
-    poetry add pygiphy
+    poetry add giphpy
     ```
 
 ## Authentication
 In order to authenticate to the GIPHY API, you must [request an API key](https://support.giphy.com/hc/en-us/articles/360020283431-Request-A-GIPHY-API-Key)
 from their developer portal.
 
-Once you have your key, you can use it in `pygiphy` by setting the `GIPHY_API_KEY` environment variable or by passing
+Once you have your key, you can use it in *giphpy* by setting the `GIPHY_API_KEY` environment variable or by passing
 `api_key="xxx"` as a kwarg to any function (see examples below).
 
 === "environment variable"
     ```python
     import os
 
-    import pygiphy
+    import giphpy
     
     os.environ["GIPHY_API_KEY"] = "xxx"
-    response = pygiphy.gif_translate("spongebob")
+    response = giphpy.gif_translate("spongebob")
     ```
 
 === "kwarg"
     ```python
-    import pygiphy
+    import giphpy
 
-    response = pygiphy.gif_translate("spongebob", api_key="xxx)
+    response = giphpy.gif_translate("spongebob", api_key="xxx)
     ```
 
 ## Simple Example
-pygiphy is extremely easy to use.  By setting `serialize=True`, you get a pydantic model returned to you instead of
+*giphpy* is extremely easy to use.  By setting `serialize=True`, you get a pydantic model returned to you instead of
 a `httpx.Response` object.
 
 Below are examples of what the code looks like for both the sync and async apis.
 
 === "sync"
     ```python
-    import pygiphy
+    import giphpy
 
-    gif = pygiphy.gif_translate("spongebob", api_key="xxx", serialize=True)
+    gif = giphpy.gif_translate("spongebob", api_key="xxx", serialize=True)
     print(gif)
     ```
 
@@ -66,10 +66,10 @@ Below are examples of what the code looks like for both the sync and async apis.
     ```python
     import asyncio 
 
-    import pygiphy
+    import giphpy
     
     async def main():
-        gif = await pygiphy.async_gif_translate("spongebob", api_key="xxx)
+        gif = await giphpy.async_gif_translate("spongebob", api_key="xxx)
         print(gif)
 
     asyncio.run(main())
