@@ -15,18 +15,18 @@ You should use it because:
 
 ## Installation
 ```console
-pip install pygiphy
+pip install giphpy
 ```
 or for poetry
 ```console
-poetry add pygiphy
+poetry add giphpy
 ```
 
 ## Help
-See the [documentation](https://pygiphy.readthedocs.io/en/latest/) for more details.
+See the [documentation](https://giphpy.readthedocs.io/en/latest/) for more details.
 
 ## Example
-pygiphy is extremely easy to use.  By setting `serialize=True`, you get a pydantic model returned to you instead of
+*giphpy* is extremely easy to use.  By setting `serialize=True`, you get a pydantic model returned to you instead of
 a `httpx.Response` object.
 
 Example:

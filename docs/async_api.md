@@ -1,4 +1,6 @@
 
+<a href="giphpy/async_api.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 # <kbd>module</kbd> `async_api.py`
 
 
@@ -7,21 +9,23 @@
 
 ---
 
+<a href="giphpy/async_api.py#L41"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_search_gifs`
 
 ```python
 async_search_gifs(
     q: str,
     lang: str = None,
-    rating: pygiphy.enums.Rating = None,
+    rating: giphpy.enums.Rating = None,
     limit: int = None,
     offset: int = None,
     api_key: str = None,
     random_id: str = None,
-    bundle: pygiphy.enums.Bundle = None,
+    bundle: giphpy.enums.Bundle = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifListResponse]
+) → Union[httpx.Response, giphpy.models.GifListResponse]
 ```
 
 Search for gifs asynchronously by a query string. 
@@ -51,21 +55,23 @@ https://developers.giphy.com/docs/api/endpoint#search
 
 ---
 
+<a href="giphpy/async_api.py#L87"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_search_stickers`
 
 ```python
 async_search_stickers(
     q: str,
     lang: str = None,
-    rating: pygiphy.enums.Rating = None,
+    rating: giphpy.enums.Rating = None,
     limit: int = None,
     offset: int = None,
     api_key: str = None,
     random_id: str = None,
-    bundle: pygiphy.enums.Bundle = None,
+    bundle: giphpy.enums.Bundle = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifListResponse]
+) → Union[httpx.Response, giphpy.models.GifListResponse]
 ```
 
 Search for stickers asynchronously by using a query string. 
@@ -95,19 +101,21 @@ https://developers.giphy.com/docs/api/endpoint#search
 
 ---
 
+<a href="giphpy/async_api.py#L135"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_trending_gifs`
 
 ```python
 async_trending_gifs(
-    rating: pygiphy.enums.Rating = None,
+    rating: giphpy.enums.Rating = None,
     limit: int = None,
     offset: int = None,
     api_key: str = None,
     random_id: str = None,
-    bundle: pygiphy.enums.Bundle = None,
+    bundle: giphpy.enums.Bundle = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifListResponse]
+) → Union[httpx.Response, giphpy.models.GifListResponse]
 ```
 
 Get trending gifs asynchronously. 
@@ -135,19 +143,21 @@ https://developers.giphy.com/docs/api/endpoint#trending
 
 ---
 
+<a href="giphpy/async_api.py#L177"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_trending_stickers`
 
 ```python
 async_trending_stickers(
-    rating: pygiphy.enums.Rating = None,
+    rating: giphpy.enums.Rating = None,
     limit: int = None,
     offset: int = None,
     api_key: str = None,
     random_id: str = None,
-    bundle: pygiphy.enums.Bundle = None,
+    bundle: giphpy.enums.Bundle = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifListResponse]
+) → Union[httpx.Response, giphpy.models.GifListResponse]
 ```
 
 Get trending stickers asynchronously. 
@@ -175,6 +185,8 @@ https://developers.giphy.com/docs/api/endpoint#trending
 
 ---
 
+<a href="giphpy/async_api.py#L219"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_gif_translate`
 
 ```python
@@ -185,7 +197,7 @@ async_gif_translate(
     random_id: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifResponse]
+) → Union[httpx.Response, giphpy.models.GifResponse]
 ```
 
 Asynchronously translate words or phrases to a single gif. 
@@ -211,6 +223,8 @@ https://developers.giphy.com/docs/api/endpoint#translate
 
 ---
 
+<a href="giphpy/async_api.py#L242"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_sticker_translate`
 
 ```python
@@ -221,7 +235,7 @@ async_sticker_translate(
     random_id: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifResponse]
+) → Union[httpx.Response, giphpy.models.GifResponse]
 ```
 
 Asynchronously translate words or phrases to a single sticker. 
@@ -247,17 +261,19 @@ https://developers.giphy.com/docs/api/endpoint#translate
 
 ---
 
+<a href="giphpy/async_api.py#L267"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_random_gif`
 
 ```python
 async_random_gif(
     api_key: str = None,
     tag: str = None,
-    rating: pygiphy.enums.Rating = None,
+    rating: giphpy.enums.Rating = None,
     random_id: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifResponse]
+) → Union[httpx.Response, giphpy.models.GifResponse]
 ```
 
 Get a single random GIF asynchronously 
@@ -283,17 +299,19 @@ https://developers.giphy.com/docs/api/endpoint#random
 
 ---
 
+<a href="giphpy/async_api.py#L297"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_random_sticker`
 
 ```python
 async_random_sticker(
     api_key: str = None,
     tag: str = None,
-    rating: pygiphy.enums.Rating = None,
+    rating: giphpy.enums.Rating = None,
     random_id: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifResponse]
+) → Union[httpx.Response, giphpy.models.GifResponse]
 ```
 
 Get a single random sticker asynchronously 
@@ -319,6 +337,8 @@ https://developers.giphy.com/docs/api/endpoint#random
 
 ---
 
+<a href="giphpy/async_api.py#L327"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_random_id`
 
 ```python
@@ -326,7 +346,7 @@ async_random_id(
     api_key: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.RandomIdResponse]
+) → Union[httpx.Response, giphpy.models.RandomIdResponse]
 ```
 
 Asynchronously generate a unique ID you can assign to each new user in your app. 
@@ -348,6 +368,8 @@ https://developers.giphy.com/docs/api/endpoint#random-id
 
 
 ---
+
+<a href="giphpy/async_api.py#L346"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_action_register`
 
@@ -383,6 +405,8 @@ https://developers.giphy.com/docs/api/endpoint#action-register
 
 ---
 
+<a href="giphpy/async_api.py#L365"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_get_gif_by_id`
 
 ```python
@@ -392,7 +416,7 @@ async_get_gif_by_id(
     random_id: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifResponse]
+) → Union[httpx.Response, giphpy.models.GifResponse]
 ```
 
 Get a single gif asynchronously by its unique identifier 
@@ -417,6 +441,8 @@ https://developers.giphy.com/docs/api/endpoint#get-gif-by-id
 
 ---
 
+<a href="giphpy/async_api.py#L386"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_get_gifs_by_id`
 
 ```python
@@ -426,7 +452,7 @@ async_get_gifs_by_id(
     random_id: str = None,
     serialize: bool = None,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.GifListResponse]
+) → Union[httpx.Response, giphpy.models.GifListResponse]
 ```
 
 Get one or more gifs asynchronously by their unique identifiers. 
@@ -451,6 +477,8 @@ https://developers.giphy.com/docs/api/endpoint#get-gifs-by-id
 
 ---
 
+<a href="giphpy/async_api.py#L412"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_categories`
 
 ```python
@@ -458,7 +486,7 @@ async_categories(
     api_key: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.CategoryListResponse]
+) → Union[httpx.Response, giphpy.models.CategoryListResponse]
 ```
 
 Asynchronously get a list of gif categories on the giphy network. 
@@ -481,6 +509,8 @@ https://developers.giphy.com/docs/api/endpoint#categories
 
 ---
 
+<a href="giphpy/async_api.py#L433"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_autocomplete`
 
 ```python
@@ -491,7 +521,7 @@ async_autocomplete(
     offset: int = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.SearchTermListResponse]
+) → Union[httpx.Response, giphpy.models.SearchTermListResponse]
 ```
 
 Asynchronously provides a list of valid terms that completes the given tag on the giphy network 
@@ -517,6 +547,8 @@ https://developers.giphy.com/docs/api/endpoint#autocomplete
 
 ---
 
+<a href="giphpy/async_api.py#L457"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_channel_search`
 
 ```python
@@ -527,7 +559,7 @@ async_channel_search(
     offset: int = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.ChannelListResponse]
+) → Union[httpx.Response, giphpy.models.ChannelListResponse]
 ```
 
 Asynchronously returns all the giphy channels matching the query term. 
@@ -553,6 +585,8 @@ https://developers.giphy.com/docs/api/endpoint#channel-search
 
 ---
 
+<a href="giphpy/async_api.py#L481"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 ## <kbd>function</kbd> `async_search_suggestions`
 
 ```python
@@ -561,7 +595,7 @@ async_search_suggestions(
     api_key: str = None,
     serialize: bool = False,
     **kwargs
-) → Union[httpx.Response, pygiphy.models.TermListResponse]
+) → Union[httpx.Response, giphpy.models.TermListResponse]
 ```
 
 Asynchronously provides a list of tag terms related to the given tag on the giphy network. 
@@ -584,6 +618,8 @@ https://developers.giphy.com/docs/api/endpoint#search-suggestions
 
 
 ---
+
+<a href="giphpy/async_api.py#L503"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ## <kbd>function</kbd> `async_trending_search_terms`
 

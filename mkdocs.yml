@@ -3,6 +3,7 @@ nav:
   - Overview: index.md
   - Api: api.md
   - Async Api: async_api.md
+  - Release Notes: release_notes.md
 
 theme:
   name: 'material'
